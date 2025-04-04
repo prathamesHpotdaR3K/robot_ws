@@ -24,22 +24,22 @@ robot_ws/
 
 ## To run the simulation:
 Launch robot with 
-```ros2 launch robot_bringup robot_gazebo_classic.launch.py```
+```ros2 launch robot_bringup robot_gazebo_classic.launch.py```  
 Launch map and amcl localization
-```ros2 launch robot_bringup map_and_localization.launch.py```
+```ros2 launch robot_bringup map_and_localization.launch.py```  
 Launch nav2 for autonomously navigating robot
-```ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true```
+```ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true```  
 Start service server for logging trajectory data
-```ros2 run robot_bringup viz_server.py```
-Make sure to give a goal pose and robot is navigating
+```ros2 run robot_bringup viz_server.py```  
+Make sure to give a goal pose and robot is navigating  
 
 Call service server to start logging, give name of file and add .csv at the ending example: my_log.csv and give time for how log you want to log the data (in sec)
 ```ros2 service call /save_trajectory robot_msg/srv/TrajTime "filename: 'my_log.csv' time: 90```
-Node will start adding pose data and will inform once time is over.
+Node will start adding pose data and will inform once time is over.  
 
 To visualize data, run vizualization node and give name of log file to be visualized to filepath parameter
 ```ros2 run robot_bringup log_traj_viz.py --ros-args -p ./src/robot_bringup/trajectory_log/my_robot_traj_3.csv ```
-Add MarkerArray message from diff_cont/trajectory to see visualization
+Add MarkerArray message from diff_cont/trajectory to see visualization  
 
 ### How does the logging server works?
 Visualization server continuously reads the filtered odometry data published by robot_localization node which fuses imu data with odometry to get best results. We need to subscribe to the odometry/filtered topic in order to get filtered data and callback function is invoked each time pose data is read from topic. This callback message then store the valuse in pose object. 
