@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_msg/srv/TrajTime.srv
+// generated code does not contain a copyright notice
+
+
+module robot_msg {
+  module srv {
+    struct TrajTime_Request {
+      string filename;
+
+      int64 time;
+    };
+    struct TrajTime_Response {
+      string result;
+    };
+  };
+};

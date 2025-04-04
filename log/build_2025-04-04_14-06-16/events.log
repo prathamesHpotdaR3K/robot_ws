@@ -1,0 +1,390 @@
+[0.000000] (-) TimerEvent: {}
+[0.000707] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.001202] (robot_msg) JobQueued: {'identifier': 'robot_msg', 'dependencies': OrderedDict()}
+[0.001304] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.011954] (robot_msg) JobStarted: {'identifier': 'robot_msg'}
+[0.020194] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'cmake'}
+[0.022547] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/prathamesh/robot_ws/src/robot_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/prathamesh/robot_ws/install/robot_bringup'], 'cwd': '/home/prathamesh/robot_ws/build/robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'prathamesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/prathamesh'), ('OLDPWD', '/home/prathamesh/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1893'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prathamesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prathamesh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/prathamesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/prathamesh-Mi-NoteBook-14:@/tmp/.ICE-unix/1850,unix/prathamesh-Mi-NoteBook-14:/tmp/.ICE-unix/1850'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a84520_c91f_490f_9d61_289c36d3f8c5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BD3D42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.358'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prathamesh/robot_ws/build/robot_bringup'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.036474] (robot_msg) JobProgress: {'identifier': 'robot_msg', 'progress': 'cmake'}
+[0.045286] (robot_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/prathamesh/robot_ws/src/robot_msg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/prathamesh/robot_ws/install/robot_msg'], 'cwd': '/home/prathamesh/robot_ws/build/robot_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'prathamesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/prathamesh'), ('OLDPWD', '/home/prathamesh/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1893'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prathamesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prathamesh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/prathamesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/prathamesh-Mi-NoteBook-14:@/tmp/.ICE-unix/1850,unix/prathamesh-Mi-NoteBook-14:/tmp/.ICE-unix/1850'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a84520_c91f_490f_9d61_289c36d3f8c5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BD3D42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.358'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prathamesh/robot_ws/build/robot_msg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.065161] (robot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.071058] (robot_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099649] (-) TimerEvent: {}
+[0.200615] (-) TimerEvent: {}
+[0.303274] (-) TimerEvent: {}
+[0.387776] (robot_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.403712] (-) TimerEvent: {}
+[0.408447] (robot_bringup) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[0.409707] (robot_msg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.410964] (robot_bringup) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.422689] (robot_msg) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.493550] (robot_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.503761] (-) TimerEvent: {}
+[0.504920] (robot_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.519531] (robot_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.550643] (robot_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.551545] (robot_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.586204] (robot_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.603865] (-) TimerEvent: {}
+[0.637811] (robot_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.676617] (robot_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.677422] (robot_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.677884] (robot_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.681275] (robot_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.683223] (robot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.687009] (robot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[0.690252] (robot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/prathamesh/robot_ws/build/robot_bringup\n'}
+[0.694610] (robot_bringup) CommandEnded: {'returncode': 0}
+[0.695538] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'build'}
+[0.696992] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prathamesh/robot_ws/build/robot_bringup', '--', '-j8', '-l8'], 'cwd': '/home/prathamesh/robot_ws/build/robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'prathamesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/prathamesh'), ('OLDPWD', '/home/prathamesh/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1893'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prathamesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prathamesh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/prathamesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/prathamesh-Mi-NoteBook-14:@/tmp/.ICE-unix/1850,unix/prathamesh-Mi-NoteBook-14:/tmp/.ICE-unix/1850'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a84520_c91f_490f_9d61_289c36d3f8c5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BD3D42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.358'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prathamesh/robot_ws/build/robot_bringup'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.704141] (-) TimerEvent: {}
+[0.791435] (robot_bringup) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_robot_bringup\n'}
+[0.804216] (-) TimerEvent: {}
+[0.906454] (-) TimerEvent: {}
+[1.007385] (-) TimerEvent: {}
+[1.107690] (-) TimerEvent: {}
+[1.138838] (robot_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.209437] (-) TimerEvent: {}
+[1.305636] (robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[1.307198] (robot_bringup) StdoutLine: {'line': b'creating robot_bringup.egg-info\n'}
+[1.307585] (robot_bringup) StdoutLine: {'line': b'writing robot_bringup.egg-info/PKG-INFO\n'}
+[1.307793] (robot_bringup) StdoutLine: {'line': b'writing dependency_links to robot_bringup.egg-info/dependency_links.txt\n'}
+[1.307956] (robot_bringup) StdoutLine: {'line': b'writing top-level names to robot_bringup.egg-info/top_level.txt\n'}
+[1.308192] (robot_bringup) StdoutLine: {'line': b"writing manifest file 'robot_bringup.egg-info/SOURCES.txt'\n"}
+[1.309491] (-) TimerEvent: {}
+[1.310927] (robot_bringup) StdoutLine: {'line': b"reading manifest file 'robot_bringup.egg-info/SOURCES.txt'\n"}
+[1.311529] (robot_bringup) StdoutLine: {'line': b"writing manifest file 'robot_bringup.egg-info/SOURCES.txt'\n"}
+[1.387487] (robot_bringup) StdoutLine: {'line': b'Built target ament_cmake_python_build_robot_bringup_egg\n'}
+[1.400976] (robot_bringup) CommandEnded: {'returncode': 0}
+[1.404043] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'install'}
+[1.409638] (-) TimerEvent: {}
+[1.414656] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/prathamesh/robot_ws/build/robot_bringup'], 'cwd': '/home/prathamesh/robot_ws/build/robot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'prathamesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/prathamesh'), ('OLDPWD', '/home/prathamesh/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1893'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prathamesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prathamesh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/prathamesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/prathamesh-Mi-NoteBook-14:@/tmp/.ICE-unix/1850,unix/prathamesh-Mi-NoteBook-14:/tmp/.ICE-unix/1850'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a84520_c91f_490f_9d61_289c36d3f8c5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BD3D42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.358'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prathamesh/robot_ws/build/robot_bringup'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.429008] (robot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.429576] (robot_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.429996] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/robot_desc/inertial_macros.xacro\n'}
+[1.451868] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/robot_desc/robot.urdf.xacro\n'}
+[1.469072] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/robot_desc/ros2_control.xacro\n'}
+[1.479316] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/launch/map_and_localization.launch.py\n'}
+[1.490080] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/launch/robot_gazebo_classic.launch.py\n'}
+[1.509777] (-) TimerEvent: {}
+[1.510583] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/rviz/config.rviz\n'}
+[1.536216] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/config/ekf.yaml\n'}
+[1.555397] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/config/ros2_control_param.yaml\n'}
+[1.563901] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/config/twist_mux.yaml\n'}
+[1.573212] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/world/world.sdf\n'}
+[1.589157] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/maps/my_custom_map.pgm\n'}
+[1.601292] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/maps/my_custom_map.yaml\n'}
+[1.609890] (-) TimerEvent: {}
+[1.612160] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/robot_bringup/__init__.py\n'}
+[1.627984] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/robot_bringup/log_traj_viz.py\n'}
+[1.643580] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/robot_bringup/viz_server.py\n'}
+[1.657714] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/lib/robot_bringup/viz_server.py\n'}
+[1.677760] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/lib/robot_bringup/log_traj_viz.py\n'}
+[1.698189] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/environment/pythonpath.sh\n'}
+[1.710018] (-) TimerEvent: {}
+[1.710447] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/environment/pythonpath.dsv\n'}
+[1.724675] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/local/lib/python3.10/dist-packages/robot_bringup-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.728236] (robot_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.743533] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/local/lib/python3.10/dist-packages/robot_bringup-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.758632] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/local/lib/python3.10/dist-packages/robot_bringup-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.773852] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/local/lib/python3.10/dist-packages/robot_bringup-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.785308] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/local/lib/python3.10/dist-packages/robot_bringup/__init__.py\n'}
+[1.797917] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/local/lib/python3.10/dist-packages/robot_bringup/log_traj_viz.py\n'}
+[1.809307] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/local/lib/python3.10/dist-packages/robot_bringup/viz_server.py\n'}
+[1.810163] (-) TimerEvent: {}
+[1.831455] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup\n'}
+[1.853757] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup\n'}
+[1.882373] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.sh\n'}
+[1.906675] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.dsv\n'}
+[1.910417] (-) TimerEvent: {}
+[1.919389] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/environment/path.sh\n'}
+[1.931870] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/environment/path.dsv\n'}
+[1.948973] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/local_setup.bash\n'}
+[1.971825] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/local_setup.sh\n'}
+[1.979262] (robot_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.987536] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/local_setup.zsh\n'}
+[1.998722] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/local_setup.dsv\n'}
+[2.010482] (-) TimerEvent: {}
+[2.013054] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/package.dsv\n'}
+[2.013487] (robot_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.018558] (robot_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.029011] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/ament_index/resource_index/packages/robot_bringup\n'}
+[2.045718] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig.cmake\n'}
+[2.060183] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig-version.cmake\n'}
+[2.064179] (robot_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.064540] (robot_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.064622] (robot_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.064695] (robot_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.071355] (robot_bringup) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_bringup/share/robot_bringup/package.xml\n'}
+[2.103568] (robot_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.110705] (-) TimerEvent: {}
+[2.151977] (robot_bringup) StdoutLine: {'line': b"Listing '/home/prathamesh/robot_ws/install/robot_bringup/local/lib/python3.10/dist-packages/robot_bringup'...\n"}
+[2.152283] (robot_bringup) StdoutLine: {'line': b"Compiling '/home/prathamesh/robot_ws/install/robot_bringup/local/lib/python3.10/dist-packages/robot_bringup/__init__.py'...\n"}
+[2.152419] (robot_bringup) StdoutLine: {'line': b"Compiling '/home/prathamesh/robot_ws/install/robot_bringup/local/lib/python3.10/dist-packages/robot_bringup/log_traj_viz.py'...\n"}
+[2.152537] (robot_bringup) StdoutLine: {'line': b"Compiling '/home/prathamesh/robot_ws/install/robot_bringup/local/lib/python3.10/dist-packages/robot_bringup/viz_server.py'...\n"}
+[2.171068] (robot_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.172145] (robot_bringup) CommandEnded: {'returncode': 0}
+[2.195812] (robot_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.197603] (robot_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.202748] (robot_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.208792] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[2.210782] (-) TimerEvent: {}
+[2.264807] (robot_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[2.292786] (robot_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/prathamesh/robot_ws/build/robot_msg\n'}
+[2.305868] (robot_msg) CommandEnded: {'returncode': 0}
+[2.306546] (robot_msg) JobProgress: {'identifier': 'robot_msg', 'progress': 'build'}
+[2.306864] (robot_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/prathamesh/robot_ws/build/robot_msg', '--', '-j8', '-l8'], 'cwd': '/home/prathamesh/robot_ws/build/robot_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'prathamesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/prathamesh'), ('OLDPWD', '/home/prathamesh/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1893'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prathamesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prathamesh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/prathamesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/prathamesh-Mi-NoteBook-14:@/tmp/.ICE-unix/1850,unix/prathamesh-Mi-NoteBook-14:/tmp/.ICE-unix/1850'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a84520_c91f_490f_9d61_289c36d3f8c5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BD3D42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.358'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prathamesh/robot_ws/build/robot_msg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.310913] (-) TimerEvent: {}
+[2.411550] (-) TimerEvent: {}
+[2.419522] (robot_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.464161] (robot_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.501451] (robot_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_robot_msg\n'}
+[2.521426] (-) TimerEvent: {}
+[2.623086] (-) TimerEvent: {}
+[2.727685] (-) TimerEvent: {}
+[2.830261] (-) TimerEvent: {}
+[2.931072] (-) TimerEvent: {}
+[3.033205] (-) TimerEvent: {}
+[3.136330] (-) TimerEvent: {}
+[3.237050] (-) TimerEvent: {}
+[3.344893] (-) TimerEvent: {}
+[3.446192] (-) TimerEvent: {}
+[3.455918] (robot_msg) StdoutLine: {'line': b'running egg_info\n'}
+[3.459228] (robot_msg) StdoutLine: {'line': b'creating robot_msg.egg-info\n'}
+[3.459989] (robot_msg) StdoutLine: {'line': b'writing robot_msg.egg-info/PKG-INFO\n'}
+[3.461125] (robot_msg) StdoutLine: {'line': b'writing dependency_links to robot_msg.egg-info/dependency_links.txt\n'}
+[3.461581] (robot_msg) StdoutLine: {'line': b'writing top-level names to robot_msg.egg-info/top_level.txt\n'}
+[3.466005] (robot_msg) StdoutLine: {'line': b"writing manifest file 'robot_msg.egg-info/SOURCES.txt'\n"}
+[3.473943] (robot_msg) StdoutLine: {'line': b"reading manifest file 'robot_msg.egg-info/SOURCES.txt'\n"}
+[3.488417] (robot_msg) StdoutLine: {'line': b"writing manifest file 'robot_msg.egg-info/SOURCES.txt'\n"}
+[3.551303] (-) TimerEvent: {}
+[3.643031] (robot_msg) StdoutLine: {'line': b'[  6%] Built target robot_msg__cpp\n'}
+[3.653462] (-) TimerEvent: {}
+[3.672258] (robot_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_c.dir/rosidl_generator_c/robot_msg/srv/detail/traj_time__functions.c.o\x1b[0m\n'}
+[3.672943] (robot_msg) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_build_robot_msg_egg\n'}
+[3.676160] (robot_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.698988] (robot_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.700028] (robot_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.755795] (-) TimerEvent: {}
+[3.859225] (-) TimerEvent: {}
+[3.945011] (robot_msg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library librobot_msg__rosidl_generator_c.so\x1b[0m\n'}
+[3.959528] (-) TimerEvent: {}
+[4.062604] (-) TimerEvent: {}
+[4.142280] (robot_msg) StdoutLine: {'line': b'[ 22%] Built target robot_msg__rosidl_generator_c\n'}
+[4.162718] (-) TimerEvent: {}
+[4.187224] (robot_msg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.197220] (robot_msg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.204946] (robot_msg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.267488] (-) TimerEvent: {}
+[4.368214] (-) TimerEvent: {}
+[4.471318] (-) TimerEvent: {}
+[4.571897] (-) TimerEvent: {}
+[4.672623] (-) TimerEvent: {}
+[4.773276] (-) TimerEvent: {}
+[4.875198] (-) TimerEvent: {}
+[4.892856] (robot_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msg/srv/traj_time__type_support.cpp.o\x1b[0m\n'}
+[4.975529] (-) TimerEvent: {}
+[5.077438] (-) TimerEvent: {}
+[5.184723] (-) TimerEvent: {}
+[5.223276] (robot_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msg/srv/detail/dds_fastrtps/traj_time__type_support.cpp.o\x1b[0m\n'}
+[5.273578] (robot_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msg/srv/traj_time__type_support.cpp.o\x1b[0m\n'}
+[5.292500] (-) TimerEvent: {}
+[5.374320] (robot_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msg/srv/detail/traj_time__type_support.cpp.o\x1b[0m\n'}
+[5.396518] (robot_msg) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library librobot_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.396991] (-) TimerEvent: {}
+[5.450973] (robot_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msg/srv/detail/traj_time__type_support.c.o\x1b[0m\n'}
+[5.495082] (robot_msg) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msg/srv/detail/traj_time__type_support_c.cpp.o\x1b[0m\n'}
+[5.498231] (-) TimerEvent: {}
+[5.598927] (-) TimerEvent: {}
+[5.639254] (robot_msg) StdoutLine: {'line': b'[ 54%] Built target robot_msg__rosidl_typesupport_c\n'}
+[5.645780] (robot_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library librobot_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.700169] (-) TimerEvent: {}
+[5.801025] (robot_msg) StdoutLine: {'line': b'[ 58%] Built target robot_msg__rosidl_typesupport_introspection_c\n'}
+[5.801386] (-) TimerEvent: {}
+[5.902536] (-) TimerEvent: {}
+[6.003434] (-) TimerEvent: {}
+[6.105952] (-) TimerEvent: {}
+[6.210272] (-) TimerEvent: {}
+[6.312793] (robot_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library librobot_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.313340] (-) TimerEvent: {}
+[6.418399] (-) TimerEvent: {}
+[6.469519] (robot_msg) StdoutLine: {'line': b'[ 61%] Built target robot_msg__rosidl_typesupport_cpp\n'}
+[6.518549] (-) TimerEvent: {}
+[6.620674] (-) TimerEvent: {}
+[6.725992] (-) TimerEvent: {}
+[6.827898] (-) TimerEvent: {}
+[6.876682] (robot_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library librobot_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.931160] (-) TimerEvent: {}
+[7.032217] (-) TimerEvent: {}
+[7.049346] (robot_msg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library librobot_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.137274] (-) TimerEvent: {}
+[7.194295] (robot_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library librobot_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.239248] (-) TimerEvent: {}
+[7.340160] (-) TimerEvent: {}
+[7.346573] (robot_msg) StdoutLine: {'line': b'[ 70%] Built target robot_msg__rosidl_typesupport_fastrtps_c\n'}
+[7.440480] (-) TimerEvent: {}
+[7.544996] (-) TimerEvent: {}
+[7.565012] (robot_msg) StdoutLine: {'line': b'[ 70%] Built target robot_msg__rosidl_typesupport_introspection_cpp\n'}
+[7.621270] (robot_msg) StdoutLine: {'line': b'[ 70%] Built target robot_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[7.646372] (-) TimerEvent: {}
+[7.711507] (robot_msg) StdoutLine: {'line': b'[ 70%] Built target robot_msg\n'}
+[7.746703] (-) TimerEvent: {}
+[7.799447] (robot_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.846845] (-) TimerEvent: {}
+[7.947558] (-) TimerEvent: {}
+[8.050305] (-) TimerEvent: {}
+[8.150973] (-) TimerEvent: {}
+[8.252035] (-) TimerEvent: {}
+[8.352770] (-) TimerEvent: {}
+[8.454053] (-) TimerEvent: {}
+[8.556282] (-) TimerEvent: {}
+[8.659570] (-) TimerEvent: {}
+[8.761541] (-) TimerEvent: {}
+[8.865019] (-) TimerEvent: {}
+[8.933740] (robot_msg) StdoutLine: {'line': b'[ 74%] Built target robot_msg__py\n'}
+[8.965295] (-) TimerEvent: {}
+[9.017379] (robot_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_generator_py.dir/rosidl_generator_py/robot_msg/srv/_traj_time_s.c.o\x1b[0m\n'}
+[9.065564] (-) TimerEvent: {}
+[9.166208] (-) TimerEvent: {}
+[9.269455] (-) TimerEvent: {}
+[9.330586] (robot_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_msg/librobot_msg__rosidl_generator_py.so\x1b[0m\n'}
+[9.369657] (-) TimerEvent: {}
+[9.405693] (robot_msg) StdoutLine: {'line': b'[ 80%] Built target robot_msg__rosidl_generator_py\n'}
+[9.450712] (robot_msg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_msg/_robot_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.451215] (robot_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_msg/_robot_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.455440] (robot_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/robot_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_msg/_robot_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.469865] (-) TimerEvent: {}
+[9.570530] (-) TimerEvent: {}
+[9.671854] (-) TimerEvent: {}
+[9.681109] (robot_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_msg/robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.681431] (robot_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_msg/robot_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.687610] (robot_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/robot_msg/robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.767553] (robot_msg) StdoutLine: {'line': b'[100%] Built target robot_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[9.768217] (robot_msg) StdoutLine: {'line': b'[100%] Built target robot_msg__rosidl_typesupport_c__pyext\n'}
+[9.771932] (-) TimerEvent: {}
+[9.778501] (robot_msg) StdoutLine: {'line': b'[100%] Built target robot_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.793936] (robot_msg) CommandEnded: {'returncode': 0}
+[9.795491] (robot_msg) JobProgress: {'identifier': 'robot_msg', 'progress': 'install'}
+[9.795942] (robot_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/prathamesh/robot_ws/build/robot_msg'], 'cwd': '/home/prathamesh/robot_ws/build/robot_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'prathamesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/prathamesh'), ('OLDPWD', '/home/prathamesh/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1893'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'prathamesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'prathamesh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/prathamesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/prathamesh-Mi-NoteBook-14:@/tmp/.ICE-unix/1850,unix/prathamesh-Mi-NoteBook-14:/tmp/.ICE-unix/1850'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a84520_c91f_490f_9d61_289c36d3f8c5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BD3D42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.358'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/prathamesh/robot_ws/build/robot_msg'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.811627] (robot_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.812686] (robot_msg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.813044] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/ament_index/resource_index/rosidl_interfaces/robot_msg\n'}
+[9.831056] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.848133] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/srv/detail/traj_time__functions.h\n'}
+[9.859740] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/srv/detail/traj_time__struct.h\n'}
+[9.870323] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/srv/detail/traj_time__type_support.h\n'}
+[9.872007] (-) TimerEvent: {}
+[9.888892] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/srv/traj_time.h\n'}
+[9.913311] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/environment/library_path.sh\n'}
+[9.943408] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/environment/library_path.dsv\n'}
+[9.957121] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.968425] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/srv/detail/traj_time__rosidl_typesupport_fastrtps_c.h\n'}
+[9.972117] (-) TimerEvent: {}
+[9.981836] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.991067] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/srv/detail/traj_time__builder.hpp\n'}
+[10.010193] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/srv/detail/traj_time__struct.hpp\n'}
+[10.021770] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/srv/detail/traj_time__traits.hpp\n'}
+[10.033589] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/srv/detail/traj_time__type_support.hpp\n'}
+[10.050179] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/srv/traj_time.hpp\n'}
+[10.069414] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.072314] (-) TimerEvent: {}
+[10.087268] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/srv/detail/traj_time__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.103350] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.119331] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/srv/detail/traj_time__rosidl_typesupport_introspection_c.h\n'}
+[10.133147] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/include/robot_msg/robot_msg/srv/detail/traj_time__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.148465] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/environment/pythonpath.sh\n'}
+[10.163971] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/environment/pythonpath.dsv\n'}
+[10.172424] (-) TimerEvent: {}
+[10.177756] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.187837] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.206397] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.225749] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.255574] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/__init__.py\n'}
+[10.270074] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/_robot_msg_s.ep.rosidl_typesupport_c.c\n'}
+[10.272543] (-) TimerEvent: {}
+[10.287235] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/_robot_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.303531] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/_robot_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.320981] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/librobot_msg__rosidl_generator_py.so\n'}
+[10.335434] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.348723] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.366295] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.372678] (-) TimerEvent: {}
+[10.384282] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/__init__.py\n'}
+[10.403502] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/_traj_time.py\n'}
+[10.417283] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/_traj_time_s.c\n'}
+[10.429757] (robot_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.430037] (robot_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.430360] (robot_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/robot_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.430566] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/srv/TrajTime.idl\n'}
+[10.447847] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/srv/TrajTime.srv\n'}
+[10.463756] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/srv/TrajTime_Request.msg\n'}
+[10.472829] (-) TimerEvent: {}
+[10.473767] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/srv/TrajTime_Response.msg\n'}
+[10.488893] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/ament_index/resource_index/package_run_dependencies/robot_msg\n'}
+[10.500530] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/ament_index/resource_index/parent_prefix_path/robot_msg\n'}
+[10.512444] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/environment/ament_prefix_path.sh\n'}
+[10.531877] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/environment/ament_prefix_path.dsv\n'}
+[10.553997] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/environment/path.sh\n'}
+[10.573086] (-) TimerEvent: {}
+[10.582437] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/environment/path.dsv\n'}
+[10.595727] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/local_setup.bash\n'}
+[10.615716] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/local_setup.sh\n'}
+[10.630338] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/local_setup.zsh\n'}
+[10.647399] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/local_setup.dsv\n'}
+[10.657924] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/package.dsv\n'}
+[10.670115] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/ament_index/resource_index/packages/robot_msg\n'}
+[10.673151] (-) TimerEvent: {}
+[10.688227] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[10.713209] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.732996] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.742515] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.755079] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.771565] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.773238] (-) TimerEvent: {}
+[10.786443] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.805486] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/robot_msgConfig.cmake\n'}
+[10.818058] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/robot_msgConfig-version.cmake\n'}
+[10.829436] (robot_msg) StdoutLine: {'line': b'-- Symlinking: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/package.xml\n'}
+[10.848553] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_generator_c.so\n'}
+[10.848938] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_generator_c.so" to ""\n'}
+[10.849103] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[10.849368] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.849504] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.849817] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.849947] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_typesupport_introspection_c.so\n'}
+[10.850242] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.850396] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_typesupport_c.so\n'}
+[10.850648] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_typesupport_c.so" to ""\n'}
+[10.850790] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[10.851293] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.851531] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_typesupport_cpp.so\n'}
+[10.851716] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[10.873381] (-) TimerEvent: {}
+[10.945736] (robot_msg) StdoutLine: {'line': b"Listing '/home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg'...\n"}
+[10.946014] (robot_msg) StdoutLine: {'line': b"Compiling '/home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/__init__.py'...\n"}
+[10.946185] (robot_msg) StdoutLine: {'line': b"Listing '/home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv'...\n"}
+[10.946335] (robot_msg) StdoutLine: {'line': b"Compiling '/home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/__init__.py'...\n"}
+[10.946452] (robot_msg) StdoutLine: {'line': b"Compiling '/home/prathamesh/robot_ws/install/robot_msg/local/lib/python3.10/dist-packages/robot_msg/srv/_traj_time.py'...\n"}
+[10.952200] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_generator_py.so\n'}
+[10.952719] (robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/prathamesh/robot_ws/install/robot_msg/lib/librobot_msg__rosidl_generator_py.so" to ""\n'}
+[10.952868] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_generator_cExport.cmake\n'}
+[10.953096] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.953369] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.953578] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.953868] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_generator_cppExport.cmake\n'}
+[10.954032] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.954355] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.954580] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.954772] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.954953] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_cExport.cmake\n'}
+[10.955483] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.955807] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.955993] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.956202] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_cppExport.cmake\n'}
+[10.956469] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/robot_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.956694] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_generator_pyExport.cmake\n'}
+[10.956934] (robot_msg) StdoutLine: {'line': b'-- Installing: /home/prathamesh/robot_ws/install/robot_msg/share/robot_msg/cmake/export_robot_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.959803] (robot_msg) CommandEnded: {'returncode': 0}
+[10.973744] (-) TimerEvent: {}
+[11.008728] (robot_msg) JobEnded: {'identifier': 'robot_msg', 'rc': 0}
+[11.010059] (-) EventReactorShutdown: {}

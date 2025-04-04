@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robot_msg__py",
+		"source" : "/home/prathamesh/robot_ws/build/robot_msg/robot_msg__py"
+	}
+}

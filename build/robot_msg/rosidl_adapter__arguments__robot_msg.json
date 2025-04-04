@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_msg",
+  "non_idl_tuples": [
+    "/home/prathamesh/robot_ws/src/robot_msg:srv/TrajTime.srv"
+  ]
+}
